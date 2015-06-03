@@ -16,11 +16,13 @@ Frontend:
 > git clone https://github.com/emiliano-viada-developer/hasheado-basic-stack.git  
 DO NOT forget to change the remote url. See how [here](https://help.github.com/articles/changing-a-remote-s-url/).
 
-2) Install dependencies with Composer:  
+2) Update the parameters.yml with yours.
+
+3) Install dependencies with Composer:  
 > php composer.phar install  
 
-3) Update the schema:  
+4) Update the schema:  
 > php app/console doctrine:schema:update --force  
 
-4) Create a super admin user:  
+5) Create a super admin user:  
 > php app/console fos:user:create adminuser --super-admin  
