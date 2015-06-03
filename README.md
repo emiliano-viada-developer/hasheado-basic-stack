@@ -13,7 +13,8 @@ Frontend:
 
 ## Installation
 1) Clone this repo:  
-> git clone https://github.com/emiliano-viada-developer/hasheado-basic-stack.git
+> git clone https://github.com/emiliano-viada-developer/hasheado-basic-stack.git  
+DO NOT forget to change the remote url. See how [here](https://help.github.com/articles/changing-a-remote-s-url/).
 
 2) Install dependencies with Composer:  
 > php composer.phar install  
